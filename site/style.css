@@ -1,0 +1,65 @@
+	*{
+		box-sizing: border-box;
+	}
+	p{
+		color: red;
+		font-size: 20px;
+		width: 300px;
+
+	}
+
+	h1{
+		color: blue;
+		font-family: "Georgia", serif, sans-serif;
+		text-align: center;
+		font-style: italic;
+		text-decoration: underline;
+
+	}
+
+	.greenish{
+		color:  seagreen;
+	}
+
+	.title{
+		color:  yellowgreen;
+	}
+	.highlight{
+		background-color: blueviolet;
+	}
+
+	article > p{
+		font-size: 17px;
+	} 
+
+	li{
+		list-style: none;
+
+	}
+
+
+
+	a:link, a:visited{
+
+		text-decoration: none;
+		text-align: center;
+		background-color: green;
+		border: 1px solid black;
+		width: 200px;
+		display: block;
+		margin-bottom: 1px;	
+	}
+
+	a:hover, a:active{
+		background-color: BLUE;
+		color: red;
+	}
+
+	ul li:nth-child(3){
+		font-size: 30px;
+	}
+	
+	.title:hover{
+		background-color: green;
+		cursor: pointer;
+	}
