@@ -1,12 +1,17 @@
 	*{
 		box-sizing: border-box;
+		
 	}
 	p{
 		color: red;
-		font-size: 20px;
-		width: 300px;
+		font-size: 12px;
+		
+		
+
 
 	}
+
+
 
 	h1{
 		color: blue;
@@ -14,6 +19,14 @@
 		text-align: center;
 		font-style: italic;
 		text-decoration: underline;
+
+
+	}
+
+	h2{
+		clear:  left;
+		padding-top: 10px ;
+		margin-left: 40px;
 
 	}
 
@@ -31,9 +44,15 @@
 	article > p{
 		font-size: 17px;
 	} 
+	div > p{
+		font-size: 17px;
+	} 
 
 	li{
+
 		list-style: none;
+		float: left;
+		margin-left: 10px;
 
 	}
 
@@ -55,9 +74,9 @@
 		color: red;
 	}
 
-	ul li:nth-child(3){
+	/*ul li:nth-child(3){
 		font-size: 30px;
-	}
+	}*/
 	
 	.title:hover{
 		background-color: green;
